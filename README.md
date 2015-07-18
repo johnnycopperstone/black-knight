@@ -1,15 +1,11 @@
-# Phantom
+# Black Knight
 
-A minimalistic theme for [Ghost](https://ghost.org/) inspired by the [Designmodo Journal](http://journal.designmodo.com/).
-
-![Phantom](assets/images/mockup.jpg)
+A [Ghost](https://ghost.org/) theme based on [Phantom](https://github.com/haydenbleasel/ghost-themes.git#phantom).
 
 ## Installation
 
 1. Download the theme from GitHub.
 2. Upload the theme as described in the [Ghost Documentation](http://docs.ghost.org/usage/settings/).
-
-Looking for more instructions? Sorry, it's just that easy.
 
 ## Enabling Disqus Comments
 
@@ -20,11 +16,3 @@ You'll also need to enter your Disqus "shortname". Just head on over to the [Dis
     var disqus_shortname = 'YOUR_SHORTNAME_HERE';
 
 Once you have that, just open `partials/comments.hbs` and replace the `YOUR_SHORTNAME_HERE` variable with the one Disqus gave you. Try not to edit any other settings or replace the code though, it's preconfigured to work with Ghost.
-
-## Forking and derivatives
-
-I don't really mind what you do with this project, as long as your blog looks awesome. I'd appreciate if you left the `<meta name="designer">` as Hayden Bleasel but I won't hold it against you if you change it. I think it'd be good if you make some reference back to me so people can find the source project, but other than that just have fun. Also, if you're going to make style edits I recommend creating a new stylesheet and linking that up so you can still fetch the latest updates from here without losing all your changes.
-
-## Credits
-
-I'd like to give a huge thank you to David Dupouy from [FounderSquad](http://foundersquad.com/en/articles/) for helping me resolve a number of issues with the theme and introduce a new "featured images" functionality.
