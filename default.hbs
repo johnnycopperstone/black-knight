@@ -58,20 +58,22 @@
     </head>
     <body class="{{body_class}}">
         <nav class="animated fadeIn navigation">
-            <div class="container">
+            <div class="container container-header">
+                <!--
                 <a href="{{@blog.url}}" class="text-right sidebar brand">
                     {{#if @blog.logo}}<img src="{{@blog.logo}}" alt="{{@blog.title}}" />{{/if}}
                 </a>
-                <p class="content">{{@blog.title}}</p>
+                <p class="content blog-header">{{@blog.title}}</p>
+                -->
             </div>
         </nav>
         <div class="main">
             {{{body}}}
         </div>
         <footer class="animated fadeIn" id="footer">
-            <div class="container text-center">
-                <p class="copyright"><span>Made by {{@blog.title}}.</span> <span>Powered by Ghost.</span></p>
-                <a href="https://github.com/haydenbleasel/phantom" class="theme">Theme: Phantom by Hayden Bleasel</a>
+            <div class="container">
+                <p class="copyright"><span><a href="https://github.com/johnnycopperstone/black-knight">Black Knight</a>.</span> <span>Powered by Ghost.</span></p>
+                <a href="https://github.com/haydenbleasel/phantom" class="theme">Based on Phantom by Hayden Bleasel</a>
             </div>
         </footer>
 

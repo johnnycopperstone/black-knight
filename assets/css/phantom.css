@@ -63,14 +63,18 @@ body {
 }
 p, ul, ol {
 	margin-bottom:40px;
-	font-size:18px;
-	font-weight:300;
-	line-height:34px;
+	font-size:16px;
+	font-weight:500;
+	line-height:30px;
 	letter-spacing:0;
 	color:#7f8c8d;
 }
 ul ul, ol ul, ul ol, ol ol {
 	margin-bottom:0;
+}
+.excerpt p {
+	font-size: 14px;
+	line-height: 20px;
 }
 blockquote {
 	padding-left:20px;
@@ -95,13 +99,17 @@ strong {
 	z-index:-1;
 	position:relative;
 }
+.container-header {
+	width:100%;
+	text-align: center;
+}
 .container, .pagination {
 	position:relative;
 	width:500px;
 	margin:0 auto;
 }
 .pagination {
-	text-align: center;
+	margin-top: 40px;
 	font-size: 13px;
 }
 .page-number {
@@ -130,7 +138,7 @@ strong {
 	text-align:right;
 }
 .navigation {
-	height:90px;
+	height:5px;
 	font-weight:100;
 	background:#1b1f23;
 	-webkit-animation-duration:1s;
@@ -139,6 +147,10 @@ strong {
 .content, .brand {
 	display:block;
 	float:left;
+}
+.blog-header {
+	font-weight: 900;
+	float: none;
 }
 .brand {
 	border:none;
@@ -173,7 +185,7 @@ header:before {
 	content:"";
 }
 header .container {
-	padding-top:130px;
+	padding-top:50px;
 	padding-bottom:260px;
 }
 .title {
@@ -183,9 +195,9 @@ header .container {
 	animation-duration:1s;
 }
 .title h1 {
-	font-size:55px;
-	font-weight:300;
-	line-height:60px;
+	font-size:25px;
+	font-weight:900;
+	line-height:45px;
 	margin:0;
 }
 .title p {
@@ -193,12 +205,11 @@ header .container {
 	margin-bottom: 0;
 }
 header .share {
-	margin-top:20px;
 	line-height:28px;
 	color:#7f8c8d;
 }
 .meta {
-	top:140px;
+	top:60px;
 	text-transform: capitalize;
 }
 .meta strong {
@@ -243,7 +254,7 @@ article {
 	animation-delay:1.25s;
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
-	padding:40px 0;
+	padding: 0 0 20px 0;
 }
 .hljs {
 	padding: 20px;
@@ -339,17 +350,20 @@ article input:focus {
 	background:#f2f3f4;
 }
 footer {
+	background-color:#f4f4f4;
+	margin: 50px 0 0;
 	-webkit-animation-delay:2s;
 	animation-delay:2s;
 	-webkit-animation-duration:1s;
 	animation-duration:1s;
+	height: 100%;
 }
 .copyright {
-	font-size:30px;
-	line-height: 40px;
+	font-size:14px;
+	line-height: 0;
 	font-weight:400;
 	color:#464c4c;
-	margin: 0 -80px 20px;
+	margin: 0 0 8px;
 }
 .theme {
 	font-weight: 600;
@@ -371,7 +385,7 @@ footer p {
 	border-bottom:none;
 }
 .sample .container {
-	padding-top:130px;
+	padding-top:50px;
 	padding-bottom:0;
 }
 .excerpt article {
