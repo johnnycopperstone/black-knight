@@ -1,0 +1,13 @@
+code {
+
+    background-color: #ECECEC;
+    border-radius: 3px;
+    padding: 2px 8px;
+    color: #D238B5;
+}
+
+pre,
+p, ul, ol {
+
+    margin-bottom: 20px;
+}
