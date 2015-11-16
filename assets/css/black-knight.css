@@ -37,3 +37,9 @@ h5 {
     font-size: 13px;
     line-height: 15px;
 }
+
+.container,
+.pagination {
+
+    width: 700px;
+}
